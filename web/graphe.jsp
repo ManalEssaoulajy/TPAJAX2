@@ -77,7 +77,7 @@
             </style>
             <%
 
-                // Remplacez cette partie avec le code Java pour récupérer les données de la base de données
+                
                 MachineService ms = new MachineService();
                 MarqueService mrs = new MarqueService();
                 List<Machine> machines = ms.findAll();
@@ -108,7 +108,7 @@
                         labels: labels,
                         datasets: [{
                                 label: 'machines',
-                                data: data , // Your chart data
+                                data: data , 
                                 backgroundColor: [
                                     'rgba(255, 99, 132, 0.2)',
                                     'rgba(54, 162, 235, 0.2)',
