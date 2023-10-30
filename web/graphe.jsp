@@ -38,19 +38,19 @@
 
 
             <style>
-                /* Style the chart container */
+               
                 #myChart {
-                    width: 100%; /* Make the chart container responsive to its parent */
-                    max-width: 600px; /* Limit the maximum width */
+                    width: 100%;
+                    max-width: 600px; 
                     max-height: 450px;
-                    margin: 0 auto; /* Center the chart horizontally */
-                    border: 1px solid #ccc; /* Add a border for clarity */
-                    border-radius: 5px; /* Add rounded corners */
+                    margin: 0 auto; 
+                    border: 1px solid #ccc;
+                    border-radius: 5px; 
 
                 }
 
 
-                /* Style the chart title */
+               
                 .chart-title {
 
                     text-align: center;
@@ -58,7 +58,7 @@
                     color: brown;
                 }
 
-                /* Style the chart legend */
+             
                 .chart-legend {
                     list-style: none;
                     padding: 0;
@@ -70,8 +70,8 @@
                 }
 
                 .chart-legend li::before {
-                    content: '\25A0'; /* Add a square bullet for each legend item */
-                    color: brown; /* Customize the color of the bullet */
+                    content: '\25A0';
+                    color: brown; 
                     margin-right: 5px;
                 }
             </style>
@@ -95,7 +95,7 @@
          String libelle = marque.getLibelle();
          int nombreMachines = ms.findByMarque(marque).size();
                 %>
-                labels.push("<%= libelle%>"); // Ajoutez le libellé de la marque
+                labels.push("<%= libelle%>");
                 data.push(<%= nombreMachines%>);
                 <%
         }
