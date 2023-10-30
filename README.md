@@ -47,6 +47,9 @@ Le but de ce tp est la creation d'une page web en utilisant divres technologies
 
 ![image](https://github.com/ManalEssaoulajy/TPAJAX2/assets/147450276/0b63a05d-269b-4c70-9325-c6192698aac4)
 
+![image](https://github.com/ManalEssaoulajy/TPAJAX2/assets/147450276/d1ab48e8-8aa6-426b-a0b4-65f6e301cf49)
+
+
 ajout d'une machine 
 
 ![image](https://github.com/ManalEssaoulajy/TPAJAX2/assets/147450276/5c8bbcec-0bc6-48f4-9457-e2c0a0e70252)
